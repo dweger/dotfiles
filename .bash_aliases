@@ -5,6 +5,9 @@ function cd() {
     builtin cd "$@" && ls
     }
 #--------------------------------------------------------------------------------#
+#This alias displays the public ip.
+alias publicip='dig +short myip.opendns.com @resolver1.opendns.com -4'
+#--------------------------------------------------------------------------------#
 #The below Aliases were created by Tom Lawrence.
 alias gti='git'
 alias less='less -R'
